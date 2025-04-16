@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { DUMMY_NEWS } from '@/dummy-news';
 
 export default function NewsPage() {
+
     return (
         <>
             <h1>News Page</h1>
@@ -15,6 +16,7 @@ export default function NewsPage() {
                                 alt={newsItem.title}
                             />
                             <span>{newsItem.title}</span>
+                            <li></li>
                         </Link>
                     </li>
                 ))}
